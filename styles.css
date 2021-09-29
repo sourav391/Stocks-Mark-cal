@@ -57,17 +57,6 @@ body {
 
 
 
-
-
-.header {
-    text-align: center;
-    margin: 2.5rem;
-}
-
-h1 {
-    font-size: 3.2rem;
-}
-
 label, button{
     display: block;
 }
