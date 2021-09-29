@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+
+*:focus {
+    outline : none;
+}
+
+:root {
+    --primary-color : #4d4f5f;
+    --secondary-color : #f38375;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+
+.cont {
+    padding: 0rem 1rem;
+}
+
+.navigation {
+    background-color: tomato;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex;
+
+
+}
+
+.navigation .nav-brand {
+    
+    padding: 0.1rem 2rem;
+    font-weight: bold;
+    font-size: 3rem;
+    
+
+}
+
+
+
+.navigation .nav-brand2 {
+    text-align: center;
+    font-size: 3rem;
+    color: whitesmoke;
+    padding-left: 30rem;
+    padding-top: 2rem;
+
+
+}
+
+
+
+
+
+.header {
+    text-align: center;
+    margin: 2.5rem;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+label, button{
+    display: block;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    margin : 3rem 0rem;
+}
+
+.label {
+    margin: .3rem;
+    font-size: 1.5rem;
+}
+
+.inputClass {
+    height: 1.8rem;
+    width: 30%;
+    padding: 0.2rem 1rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.checkPL-btn {
+    margin: 1rem 55rem;
+    border: none;
+    border-radius: .6rem;
+    height: 2.5rem;
+    width: 6.5rem;
+    font-size: 1rem;
+}
+
+.checkPL-btn:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    letter-spacing: 1px;
+}
+
+.outputMsg {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 500;
+    margin: 1.7rem;
+    font-size: 1.3rem;
+    margin: 3rem 0rem;
+}
